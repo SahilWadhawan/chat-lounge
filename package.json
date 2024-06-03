@@ -1,0 +1,14 @@
+{
+    "name": "real-time-chat-app",
+    "version": "1.0.0",
+    "description": "A real-time chat application using Node.js, Express, and Socket.io",
+    "main": "server/server.js",
+    "scripts": {
+        "start": "node server/server.js"
+    },
+    "dependencies": {
+        "express": "^4.19.2",
+        "mongoose": "^8.4.1",
+        "socket.io": "^4.7.5"
+    }
+}
